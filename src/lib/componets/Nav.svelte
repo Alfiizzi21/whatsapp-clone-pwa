@@ -13,7 +13,7 @@
 
 
 	onMount(() => {
-		host = window.location.protocol + '//' + window.location.host;
+		host = window.location.host;
 	});
 </script>
 
