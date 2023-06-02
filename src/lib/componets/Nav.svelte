@@ -1,16 +1,18 @@
 <script>
 	import { onMount } from 'svelte';
     import { page } from '$app/stores';
-    
-    console.log($page);
-    
+        
 	let path = "";
-	let host = $page.url.host;
+	let host = '';
 
     $: {
         path = $page.url.href.split('/')[3];
     }  
 
+
+	onMount(() => {
+		host = window.location.protocol + '//' + window.location.host;
+	});
 </script>
 
 <nav class="bg-whatsappGreen">
