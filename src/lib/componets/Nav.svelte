@@ -5,16 +5,12 @@
     console.log($page);
     
 	let path = "";
-	let host = '';
+	let host = $page.url.host;
 
     $: {
         path = $page.url.href.split('/')[3];
     }  
 
-
-	onMount(() => {
-		host = window.location.host;
-	});
 </script>
 
 <nav class="bg-whatsappGreen">
