@@ -1,3 +1,1 @@
-<div class="h-[1000px]">
-
-</div>
+<div class="h-[1000px]" />
