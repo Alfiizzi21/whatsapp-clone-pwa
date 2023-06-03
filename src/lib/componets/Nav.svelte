@@ -15,7 +15,7 @@
 	});
 </script>
 
-<nav class="bg-whatsappGreen sticky top-0 right-0 left-0">
+<nav class="bg-whatsappGreen shadow-md sticky top-0 right-0 left-0">
 	<ul class="flex">
 		<li>
 			<a href="{host}/groups">
@@ -66,5 +66,6 @@
 	}
 	.active {
 		border-bottom: 3px white solid;
+		color: white;
 	}
 </style>
