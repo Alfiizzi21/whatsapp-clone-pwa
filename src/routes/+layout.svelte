@@ -18,7 +18,7 @@
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
 			on:click={() => (isMoreMenuVisible = false)}
-			class="bg-black bg-opacity-20 fixed top-0 bottom-0 left-0 right-0"
+			class="bg-black z-50  bg-opacity-20 fixed top-0 bottom-0 left-0 right-0"
 		>
 			<div
 				transition:fly={{ y: -100, x: 100 }}
