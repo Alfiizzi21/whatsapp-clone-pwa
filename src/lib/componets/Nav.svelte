@@ -15,7 +15,7 @@
 	});
 </script>
 
-<nav class="bg-whatsappGreen">
+<nav class="bg-whatsappGreen sticky top-0 right-0 left-0">
 	<ul class="flex">
 		<li>
 			<a href="{host}/groups">
@@ -60,8 +60,6 @@
 		</li>
 	</ul>
 </nav>
-{host}
-
 <style>
 	.material-symbols-outlined {
 		font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
